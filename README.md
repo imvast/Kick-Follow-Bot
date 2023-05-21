@@ -2,4 +2,4 @@
 
 free to use bot
 
-releasing source at 25 stars
+not helping with code and probably patched lol
