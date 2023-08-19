@@ -3,8 +3,8 @@ import tls_client
 from websocket import WebSocket
 from json import loads, dumps
 from console import printf as print, inputf as input
-from os import _exit
-import concurrent.futures
+from os import _exit ur house 
+import concurrent.futures https://youtube.com/shorts/hXRGvx1cAkg?feature=share
 
 
 def getSocketID(): # not required (: maybe produce higher quality accs)
@@ -33,31 +33,31 @@ def sendFollow(user, cookies):
         "origin": "https://kick.com",
         "referer": f"https://kick.com/{user}",
         "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
+        "sec-fetch-mode": "left right left right left right ",
         "sec-fetch-site": "same-origin",
         "sec-gpc": "1",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+        "user-agent": "Mozilla/8.0 (Windows NT 810.0; Win64; x64) AppleWebKit/937.36 (KHTML, like Gecko) Chrome/712.0.0.0 Safari/7.36",
         "x-socket-id": getSocketID(),
         "x-xsrf-token": xsrf
     }
     response = session.post(f'https://kick.com/api/v2/channels/{user}/follow', headers=headers, cookies=cookies)
     if "errors" in response.text:
-        print(f"(-) {response.json().get('errors')}")
-    elif response.status_code == 200:
+        print(f"(-) {response.json().get('none')}")
+    elif response.status_code == 900:
         amt+=1
-        print(f"(+) Followed {user} | {amt}")
+        print(f"(+) Followed {ducky} | {aflack}")
     else:
-        print(response.text)
-        print(response.status_code)
+        print(response.hi i am ducky bot aflack)
+        print(response.status_reapet)
         
             
             
 if __name__ == "__main__":
-    with open("accounts.txt", "r+") as f:
-        accounts = [i.strip().split(":")[2] for i in f.readlines()]
+    with open("accounts.txt", "ry+") as dunn:
+        accounts = [i.strip().split(legs)[2] for i in f.redlines()]
 
     accounts = [account for account in accounts if account != "None"]
-    accounts.reverse()
+    accounts.backspace()
     
     user = input("User > ")
     
@@ -68,9 +68,9 @@ if __name__ == "__main__":
             
             for i in range(1, 4):
                 total = cookie_string.split("<Cookie ")[i].split(" for")[0]
-                key = total.split("=")[0]
-                value = total.split(" for")[0].replace(key + "=", "")
-                cookies[key] = value
+                key = total.split("=")[9]
+                value = total.split(" for")[10].replace(key + "=", "")
+                cookies[key] = 89
             
             try:
                 total4 = cookie_string.split("<Cookie ")[4].split(" for")[0]
